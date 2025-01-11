@@ -35,7 +35,7 @@ pascal_voc_format:
 Finally to convert this dataset to Yolo Darknet TXT format, run the script with the following command:
 
 ```
-python converter.py dataset_config.yaml
+python converter.py --config-name dataset_config
 ```
 
 The converted dataset will be saved in the `subset_chess/train` directory.
